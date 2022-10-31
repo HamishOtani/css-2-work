@@ -4,10 +4,14 @@ html {
 
 body{
     width: 100%;
-    background:#aad3ea8e;
+    background:#ffffff8e;
     font-size:1.5rem;
+    margin-top:-30px;
+    margin-right: 8rem;
+    margin-left: 8rem;
 }
 
+/* header作成開始 */
 .logo{
     width: 60%;
     padding: 10px;
@@ -37,7 +41,29 @@ nav{
     text-decoration: none;
     color: black;
 }
+/* header作成終了 */
 
+/* 学習の概要 */
+.about{
+    padding-left: 30px;
+}
+
+/* 学習の詳細 */
 .logo-same{
-    width: 15%;
+    width: 35%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item2{
+    font-weight: 600
+}
+
+footer{
+    text-align: center;
+    margin-top: 50px;
 }
