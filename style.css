@@ -1,0 +1,43 @@
+html {
+    font-size: 62.5%;
+}
+
+body{
+    width: 100%;
+    background:#aad3ea8e;
+    font-size:1.5rem;
+}
+
+.logo{
+    width: 60%;
+    padding: 10px;
+}
+
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    align-items: center;
+}
+
+nav{
+    margin: 0 auto;
+}
+
+.li-nav{
+    margin: 50px;
+}
+
+.ul-nav{
+    display: flex;
+    list-style: none;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+}
+
+.logo-same{
+    width: 15%;
+}
